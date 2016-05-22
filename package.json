@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node ./bin/www",
     "debug": "node --debug ./bin/www",
-    "install_db": "./lib/install_db"
+    "install_db": "node ./lib/install_db"
   },
   "dependencies": {
     "async": "^2.0.0-rc.3",
